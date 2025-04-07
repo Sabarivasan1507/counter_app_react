@@ -1,0 +1,60 @@
+/* src/App.css */
+.App {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-image: url('https://img.freepik.com/free-photo/plain-smooth-green-wall-texture_53876-129746.jpg?semt=ais_hybrid&w=740'); /* Background image URL */
+  background-size: cover; /* Ensure the image covers the whole background */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  color: white;
+}
+
+.card {
+  background-color: rgba(161, 218, 254, 0.8); /* Greenish background with some transparency */
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(190, 224, 254, 0.2);
+  padding: 20px;
+  width: 300px;
+  margin: 20px auto;
+  color: white; /* Ensures text inside the card is white */
+}
+
+.button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ff6347; /* Tomato color for the button */
+  color: rgb(255, 255, 255);
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 8px; /* Slightly rounded corners */
+}
+
+.button:hover {
+  background-color: #ff4500; /* Darker shade of red for hover */
+  color: #fff; /* Keep text white when hovered */
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 20px 0;
+  color: #fff;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+}
